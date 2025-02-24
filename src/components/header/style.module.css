@@ -1,0 +1,40 @@
+.Headers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #111; /* Preto */
+    padding: 10px 20px;
+    color: white;
+    border-bottom: 1px solid #8b5cf6;
+}
+
+.Headers h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Headers ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.Headers ul li {
+    display: inline;
+}
+
+.Headers ul li a {
+    text-decoration: none;
+    color: #777; /* Cinza para links inativos */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Headers ul li a:hover,
+.Headers ul li:first-child a { /* Home está destacada */
+    color: white;
+    font-weight: bold;
+}

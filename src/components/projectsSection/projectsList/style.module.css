@@ -1,0 +1,7 @@
+.techlist{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}

@@ -1,6 +1,8 @@
-export const aboutMeSection = () =>{
+export const aboutSection = ()=>{
 
     return(
-
+        <div>
+            
+        </div>
     )
 }
